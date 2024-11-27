@@ -1,0 +1,367 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{26}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Antverg and Belinkov(2022)]%
+        {antverg2022pitfallsanalyzingindividualneurons}
+\bibfield{author}{\bibinfo{person}{Omer Antverg} {and} \bibinfo{person}{Yonatan Belinkov}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{On the Pitfalls of Analyzing Individual Neurons in Language Models}.
+\newblock
+\newblock
+\showeprint[arxiv]{2110.07483}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2110.07483}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Bereska and Gavves(2024)]%
+        {bereska_mechanistic_2024}
+\bibfield{author}{\bibinfo{person}{Leonard Bereska} {and} \bibinfo{person}{Efstratios Gavves}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Mechanistic Interpretability for AI Safety - A Review}.
+\newblock \bibinfo{journal}{\emph{Transactions on Machine Learning Research}} (\bibinfo{date}{Aug} \bibinfo{year}{2024}).
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=ePUVetPKu6}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Bills et~al\mbox{.}(2023)]%
+        {bills2023language}
+\bibfield{author}{\bibinfo{person}{Steven Bills}, \bibinfo{person}{Nick Cammarata}, \bibinfo{person}{Dan Mossing}, \bibinfo{person}{Henk Tillman}, \bibinfo{person}{Leo Gao}, \bibinfo{person}{Gabriel Goh}, \bibinfo{person}{Ilya Sutskever}, \bibinfo{person}{Jan Leike}, \bibinfo{person}{Jeff Wu}, {and} \bibinfo{person}{William Saunders}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Language models can explain neurons in language models}.
+\newblock \bibinfo{howpublished}{\url{https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html}}.
+\newblock
+
+
+\bibitem[Bolukbasi et~al\mbox{.}(2021)]%
+        {bolukbasi2021interpretabilityillusionbert}
+\bibfield{author}{\bibinfo{person}{Tolga Bolukbasi}, \bibinfo{person}{Adam Pearce}, \bibinfo{person}{Ann Yuan}, \bibinfo{person}{Andy Coenen}, \bibinfo{person}{Emily Reif}, \bibinfo{person}{Fernanda Viégas}, {and} \bibinfo{person}{Martin Wattenberg}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{An Interpretability Illusion for BERT}.
+\newblock
+\newblock
+\showeprint[arxiv]{2104.07143}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2104.07143}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Bricken et~al\mbox{.}(2023)]%
+        {bricken2023monosemanticity}
+\bibfield{author}{\bibinfo{person}{Trenton Bricken}, \bibinfo{person}{Adly Templeton}, \bibinfo{person}{Joshua Batson}, \bibinfo{person}{Brian Chen}, \bibinfo{person}{Adam Jermyn}, \bibinfo{person}{Tom Conerly}, \bibinfo{person}{Nick Turner}, \bibinfo{person}{Cem Anil}, \bibinfo{person}{Carson Denison}, \bibinfo{person}{Amanda Askell}, \bibinfo{person}{Robert Lasenby}, \bibinfo{person}{Yifan Wu}, \bibinfo{person}{Shauna Kravec}, \bibinfo{person}{Nicholas Schiefer}, \bibinfo{person}{Tim Maxwell}, \bibinfo{person}{Nicholas Joseph}, \bibinfo{person}{Zac Hatfield-Dodds}, \bibinfo{person}{Alex Tamkin}, \bibinfo{person}{Karina Nguyen}, \bibinfo{person}{Brayden McLean}, \bibinfo{person}{Josiah~E Burke}, \bibinfo{person}{Tristan Hume}, \bibinfo{person}{Shan Carter}, \bibinfo{person}{Tom Henighan}, {and} \bibinfo{person}{Christopher Olah}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Towards Monosemanticity: Decomposing Language Models With Dictionary Learning}.
+\newblock \bibinfo{journal}{\emph{Transformer Circuits Thread}} (\bibinfo{year}{2023}).
+\newblock
+\urldef\tempurl%
+\url{https://transformer-circuits.pub/2023/monosemantic-features/index.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[C(2024)]%
+        {LawrenceC2024}
+\bibfield{author}{\bibinfo{person}{Lawrence C}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Superposition is not "just" neuron polysemanticity}.
+\newblock \bibinfo{howpublished}{\url{https://www.lesswrong.com/posts/8EyCQKuWo6swZpagS/superposition-is-not-just-neuron-polysemanticity}}.
+\newblock
+\newblock
+\shownote{Accessed: 2024-10-12}.
+
+
+\bibitem[Chaudhary and Geiger(2024)]%
+        {chaudhary2024evaluatingopensourcesparseautoencoders}
+\bibfield{author}{\bibinfo{person}{Maheep Chaudhary} {and} \bibinfo{person}{Atticus Geiger}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Evaluating Open-Source Sparse Autoencoders on Disentangling Factual Knowledge in GPT-2 Small}.
+\newblock
+\newblock
+\showeprint[arxiv]{2409.04478}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2409.04478}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Cunningham et~al\mbox{.}(2023)]%
+        {cunningham2023sparseautoencodershighlyinterpretable}
+\bibfield{author}{\bibinfo{person}{Hoagy Cunningham}, \bibinfo{person}{Aidan Ewart}, \bibinfo{person}{Logan Riggs}, \bibinfo{person}{Robert Huben}, {and} \bibinfo{person}{Lee Sharkey}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Sparse Autoencoders Find Highly Interpretable Features in Language Models}.
+\newblock
+\newblock
+\showeprint[arxiv]{2309.08600}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2309.08600}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Dubey et~al\mbox{.}(2024)]%
+        {dubey2024llama3herdmodels}
+\bibfield{author}{\bibinfo{person}{Abhimanyu Dubey}, \bibinfo{person}{Abhinav Jauhri}, \bibinfo{person}{Abhinav Pandey}, \bibinfo{person}{Abhishek Kadian}, \bibinfo{person}{Ahmad Al-Dahle}, \bibinfo{person}{Aiesha Letman}, \bibinfo{person}{Akhil Mathur}, \bibinfo{person}{Alan Schelten}, \bibinfo{person}{Amy Yang}, \bibinfo{person}{Angela Fan}, \bibinfo{person}{Anirudh Goyal}, \bibinfo{person}{Anthony Hartshorn}, \bibinfo{person}{Aobo Yang}, \bibinfo{person}{Archi Mitra}, \bibinfo{person}{Archie Sravankumar}, \bibinfo{person}{Artem Korenev}, \bibinfo{person}{Arthur Hinsvark}, \bibinfo{person}{Arun Rao}, \bibinfo{person}{Aston Zhang}, \bibinfo{person}{Aurelien Rodriguez}, \bibinfo{person}{Austen Gregerson}, \bibinfo{person}{Ava Spataru}, \bibinfo{person}{Baptiste Roziere}, \bibinfo{person}{Bethany Biron}, \bibinfo{person}{Binh Tang}, \bibinfo{person}{Bobbie Chern}, \bibinfo{person}{Charlotte Caucheteux}, \bibinfo{person}{Chaya Nayak}, \bibinfo{person}{Chloe Bi}, \bibinfo{person}{Chris Marra}, \bibinfo{person}{Chris McConnell}, \bibinfo{person}{Christian Keller}, \bibinfo{person}{Christophe Touret}, \bibinfo{person}{Chunyang Wu}, \bibinfo{person}{Corinne Wong}, \bibinfo{person}{Cristian~Canton Ferrer}, \bibinfo{person}{Cyrus Nikolaidis}, \bibinfo{person}{Damien Allonsius}, \bibinfo{person}{Daniel Song}, \bibinfo{person}{Danielle Pintz}, \bibinfo{person}{Danny Livshits}, \bibinfo{person}{David Esiobu}, \bibinfo{person}{Dhruv Choudhary}, \bibinfo{person}{Dhruv Mahajan}, \bibinfo{person}{Diego Garcia-Olano}, \bibinfo{person}{Diego Perino}, \bibinfo{person}{Dieuwke Hupkes}, \bibinfo{person}{Egor Lakomkin}, \bibinfo{person}{Ehab AlBadawy}, \bibinfo{person}{Elina Lobanova}, \bibinfo{person}{Emily Dinan}, \bibinfo{person}{Eric~Michael Smith}, \bibinfo{person}{Filip Radenovic}, \bibinfo{person}{Frank Zhang}, \bibinfo{person}{Gabriel Synnaeve}, \bibinfo{person}{Gabrielle Lee}, \bibinfo{person}{Georgia~Lewis Anderson}, \bibinfo{person}{Graeme Nail}, \bibinfo{person}{Gregoire Mialon}, \bibinfo{person}{Guan Pang}, \bibinfo{person}{Guillem Cucurell}, \bibinfo{person}{Hailey Nguyen}, \bibinfo{person}{Hannah Korevaar}, \bibinfo{person}{Hu Xu}, \bibinfo{person}{Hugo Touvron}, \bibinfo{person}{Iliyan Zarov}, \bibinfo{person}{Imanol~Arrieta Ibarra}, \bibinfo{person}{Isabel Kloumann}, \bibinfo{person}{Ishan Misra}, \bibinfo{person}{Ivan Evtimov}, \bibinfo{person}{Jade Copet}, \bibinfo{person}{Jaewon Lee}, \bibinfo{person}{Jan Geffert}, \bibinfo{person}{Jana Vranes}, \bibinfo{person}{Jason Park}, \bibinfo{person}{Jay Mahadeokar}, \bibinfo{person}{Jeet Shah}, \bibinfo{person}{Jelmer van~der Linde}, \bibinfo{person}{Jennifer Billock}, \bibinfo{person}{Jenny Hong}, \bibinfo{person}{Jenya Lee}, \bibinfo{person}{Jeremy Fu}, \bibinfo{person}{Jianfeng Chi}, \bibinfo{person}{Jianyu Huang}, \bibinfo{person}{Jiawen Liu}, \bibinfo{person}{Jie Wang}, \bibinfo{person}{Jiecao Yu}, \bibinfo{person}{Joanna Bitton}, \bibinfo{person}{Joe Spisak}, \bibinfo{person}{Jongsoo Park}, \bibinfo{person}{Joseph Rocca}, \bibinfo{person}{Joshua Johnstun}, \bibinfo{person}{Joshua Saxe}, \bibinfo{person}{Junteng Jia}, \bibinfo{person}{Kalyan~Vasuden Alwala}, \bibinfo{person}{Kartikeya Upasani}, \bibinfo{person}{Kate Plawiak}, \bibinfo{person}{Ke Li}, \bibinfo{person}{Kenneth Heafield}, \bibinfo{person}{Kevin Stone}, \bibinfo{person}{Khalid El-Arini}, \bibinfo{person}{Krithika Iyer}, \bibinfo{person}{Kshitiz Malik}, \bibinfo{person}{Kuenley Chiu}, \bibinfo{person}{Kunal Bhalla}, \bibinfo{person}{Lauren Rantala-Yeary}, \bibinfo{person}{Laurens van~der Maaten}, \bibinfo{person}{Lawrence Chen}, \bibinfo{person}{Liang Tan}, \bibinfo{person}{Liz Jenkins}, \bibinfo{person}{Louis Martin}, \bibinfo{person}{Lovish Madaan}, \bibinfo{person}{Lubo Malo}, \bibinfo{person}{Lukas Blecher}, \bibinfo{person}{Lukas Landzaat}, \bibinfo{person}{Luke de Oliveira}, \bibinfo{person}{Madeline Muzzi}, \bibinfo{person}{Mahesh Pasupuleti}, \bibinfo{person}{Mannat Singh}, \bibinfo{person}{Manohar Paluri}, \bibinfo{person}{Marcin Kardas}, \bibinfo{person}{Mathew Oldham}, \bibinfo{person}{Mathieu Rita}, \bibinfo{person}{Maya Pavlova}, \bibinfo{person}{Melanie Kambadur}, \bibinfo{person}{Mike Lewis}, \bibinfo{person}{Min Si}, \bibinfo{person}{Mitesh~Kumar Singh}, \bibinfo{person}{Mona Hassan}, \bibinfo{person}{Naman Goyal}, \bibinfo{person}{Narjes Torabi}, \bibinfo{person}{Nikolay Bashlykov}, \bibinfo{person}{Nikolay Bogoychev}, \bibinfo{person}{Niladri Chatterji}, \bibinfo{person}{Olivier Duchenne}, \bibinfo{person}{Onur Çelebi}, \bibinfo{person}{Patrick Alrassy}, \bibinfo{person}{Pengchuan Zhang}, \bibinfo{person}{Pengwei Li}, \bibinfo{person}{Petar Vasic}, \bibinfo{person}{Peter Weng}, \bibinfo{person}{Prajjwal Bhargava}, \bibinfo{person}{Pratik Dubal}, \bibinfo{person}{Praveen Krishnan}, \bibinfo{person}{Punit~Singh Koura}, \bibinfo{person}{Puxin Xu}, \bibinfo{person}{Qing He}, \bibinfo{person}{Qingxiao Dong}, \bibinfo{person}{Ragavan Srinivasan}, \bibinfo{person}{Raj Ganapathy}, \bibinfo{person}{Ramon Calderer}, \bibinfo{person}{Ricardo~Silveira Cabral}, \bibinfo{person}{Robert Stojnic}, \bibinfo{person}{Roberta Raileanu}, \bibinfo{person}{Rohit Girdhar}, \bibinfo{person}{Rohit Patel}, \bibinfo{person}{Romain Sauvestre}, \bibinfo{person}{Ronnie Polidoro}, \bibinfo{person}{Roshan Sumbaly}, \bibinfo{person}{Ross Taylor}, \bibinfo{person}{Ruan Silva}, \bibinfo{person}{Rui Hou}, \bibinfo{person}{Rui Wang}, \bibinfo{person}{Saghar Hosseini}, \bibinfo{person}{Sahana Chennabasappa}, \bibinfo{person}{Sanjay Singh}, \bibinfo{person}{Sean Bell}, \bibinfo{person}{Seohyun~Sonia Kim}, \bibinfo{person}{Sergey Edunov}, \bibinfo{person}{Shaoliang Nie}, \bibinfo{person}{Sharan Narang}, \bibinfo{person}{Sharath Raparthy}, \bibinfo{person}{Sheng Shen}, \bibinfo{person}{Shengye Wan}, \bibinfo{person}{Shruti Bhosale}, \bibinfo{person}{Shun Zhang}, \bibinfo{person}{Simon Vandenhende}, \bibinfo{person}{Soumya Batra}, \bibinfo{person}{Spencer Whitman}, \bibinfo{person}{Sten Sootla}, \bibinfo{person}{Stephane Collot}, \bibinfo{person}{Suchin Gururangan}, \bibinfo{person}{Sydney Borodinsky}, \bibinfo{person}{Tamar Herman}, \bibinfo{person}{Tara Fowler}, \bibinfo{person}{Tarek Sheasha}, \bibinfo{person}{Thomas Georgiou}, \bibinfo{person}{Thomas Scialom}, \bibinfo{person}{Tobias Speckbacher}, \bibinfo{person}{Todor Mihaylov}, \bibinfo{person}{Tong Xiao}, \bibinfo{person}{Ujjwal Karn}, \bibinfo{person}{Vedanuj Goswami}, \bibinfo{person}{Vibhor Gupta}, \bibinfo{person}{Vignesh Ramanathan}, \bibinfo{person}{Viktor Kerkez}, \bibinfo{person}{Vincent Gonguet}, \bibinfo{person}{Virginie Do}, \bibinfo{person}{Vish Vogeti}, \bibinfo{person}{Vladan Petrovic}, \bibinfo{person}{Weiwei Chu}, \bibinfo{person}{Wenhan Xiong}, \bibinfo{person}{Wenyin Fu}, \bibinfo{person}{Whitney Meers}, \bibinfo{person}{Xavier Martinet}, \bibinfo{person}{Xiaodong Wang}, \bibinfo{person}{Xiaoqing~Ellen Tan}, \bibinfo{person}{Xinfeng Xie}, \bibinfo{person}{Xuchao Jia}, \bibinfo{person}{Xuewei Wang}, \bibinfo{person}{Yaelle Goldschlag}, \bibinfo{person}{Yashesh Gaur}, \bibinfo{person}{Yasmine Babaei}, \bibinfo{person}{Yi Wen}, \bibinfo{person}{Yiwen Song}, \bibinfo{person}{Yuchen Zhang}, \bibinfo{person}{Yue Li}, \bibinfo{person}{Yuning Mao}, \bibinfo{person}{Zacharie~Delpierre Coudert}, \bibinfo{person}{Zheng Yan}, \bibinfo{person}{Zhengxing Chen}, \bibinfo{person}{Zoe Papakipos}, \bibinfo{person}{Aaditya Singh}, \bibinfo{person}{Aaron Grattafiori}, \bibinfo{person}{Abha Jain}, \bibinfo{person}{Adam Kelsey}, \bibinfo{person}{Adam Shajnfeld}, \bibinfo{person}{Adithya Gangidi}, \bibinfo{person}{Adolfo Victoria}, \bibinfo{person}{Ahuva Goldstand}, \bibinfo{person}{Ajay Menon}, \bibinfo{person}{Ajay Sharma}, \bibinfo{person}{Alex Boesenberg}, \bibinfo{person}{Alex Vaughan}, \bibinfo{person}{Alexei Baevski}, \bibinfo{person}{Allie Feinstein}, \bibinfo{person}{Amanda Kallet}, \bibinfo{person}{Amit Sangani}, \bibinfo{person}{Anam Yunus}, \bibinfo{person}{Andrei Lupu}, \bibinfo{person}{Andres Alvarado}, \bibinfo{person}{Andrew Caples}, \bibinfo{person}{Andrew Gu}, \bibinfo{person}{Andrew Ho}, \bibinfo{person}{Andrew Poulton}, \bibinfo{person}{Andrew Ryan}, \bibinfo{person}{Ankit Ramchandani}, \bibinfo{person}{Annie Franco}, \bibinfo{person}{Aparajita Saraf}, \bibinfo{person}{Arkabandhu Chowdhury}, \bibinfo{person}{Ashley Gabriel}, \bibinfo{person}{Ashwin Bharambe}, \bibinfo{person}{Assaf Eisenman}, \bibinfo{person}{Azadeh Yazdan}, \bibinfo{person}{Beau James}, \bibinfo{person}{Ben Maurer}, \bibinfo{person}{Benjamin Leonhardi}, \bibinfo{person}{Bernie Huang}, \bibinfo{person}{Beth Loyd}, \bibinfo{person}{Beto~De Paola}, \bibinfo{person}{Bhargavi Paranjape}, \bibinfo{person}{Bing Liu}, \bibinfo{person}{Bo Wu}, \bibinfo{person}{Boyu Ni}, \bibinfo{person}{Braden Hancock}, \bibinfo{person}{Bram Wasti}, \bibinfo{person}{Brandon Spence}, \bibinfo{person}{Brani Stojkovic}, \bibinfo{person}{Brian Gamido}, \bibinfo{person}{Britt Montalvo}, \bibinfo{person}{Carl Parker}, \bibinfo{person}{Carly Burton}, \bibinfo{person}{Catalina Mejia}, \bibinfo{person}{Changhan Wang}, \bibinfo{person}{Changkyu Kim}, \bibinfo{person}{Chao Zhou}, \bibinfo{person}{Chester Hu}, \bibinfo{person}{Ching-Hsiang Chu}, \bibinfo{person}{Chris Cai}, \bibinfo{person}{Chris Tindal}, \bibinfo{person}{Christoph Feichtenhofer}, \bibinfo{person}{Damon Civin}, \bibinfo{person}{Dana Beaty}, \bibinfo{person}{Daniel Kreymer}, \bibinfo{person}{Daniel Li}, \bibinfo{person}{Danny Wyatt}, \bibinfo{person}{David Adkins}, \bibinfo{person}{David Xu}, \bibinfo{person}{Davide Testuggine}, \bibinfo{person}{Delia David}, \bibinfo{person}{Devi Parikh}, \bibinfo{person}{Diana Liskovich}, \bibinfo{person}{Didem Foss}, \bibinfo{person}{Dingkang Wang}, \bibinfo{person}{Duc Le}, \bibinfo{person}{Dustin Holland}, \bibinfo{person}{Edward Dowling}, \bibinfo{person}{Eissa Jamil}, \bibinfo{person}{Elaine Montgomery}, \bibinfo{person}{Eleonora Presani}, \bibinfo{person}{Emily Hahn}, \bibinfo{person}{Emily Wood},
+  \bibinfo{person}{Erik Brinkman}, \bibinfo{person}{Esteban Arcaute}, \bibinfo{person}{Evan Dunbar}, \bibinfo{person}{Evan Smothers}, \bibinfo{person}{Fei Sun}, \bibinfo{person}{Felix Kreuk}, \bibinfo{person}{Feng Tian}, \bibinfo{person}{Firat Ozgenel}, \bibinfo{person}{Francesco Caggioni}, \bibinfo{person}{Francisco Guzmán}, \bibinfo{person}{Frank Kanayet}, \bibinfo{person}{Frank Seide}, \bibinfo{person}{Gabriela~Medina Florez}, \bibinfo{person}{Gabriella Schwarz}, \bibinfo{person}{Gada Badeer}, \bibinfo{person}{Georgia Swee}, \bibinfo{person}{Gil Halpern}, \bibinfo{person}{Govind Thattai}, \bibinfo{person}{Grant Herman}, \bibinfo{person}{Grigory Sizov}, \bibinfo{person}{Guangyi}, \bibinfo{person}{Zhang}, \bibinfo{person}{Guna Lakshminarayanan}, \bibinfo{person}{Hamid Shojanazeri}, \bibinfo{person}{Han Zou}, \bibinfo{person}{Hannah Wang}, \bibinfo{person}{Hanwen Zha}, \bibinfo{person}{Haroun Habeeb}, \bibinfo{person}{Harrison Rudolph}, \bibinfo{person}{Helen Suk}, \bibinfo{person}{Henry Aspegren}, \bibinfo{person}{Hunter Goldman}, \bibinfo{person}{Ibrahim Damlaj}, \bibinfo{person}{Igor Molybog}, \bibinfo{person}{Igor Tufanov}, \bibinfo{person}{Irina-Elena Veliche}, \bibinfo{person}{Itai Gat}, \bibinfo{person}{Jake Weissman}, \bibinfo{person}{James Geboski}, \bibinfo{person}{James Kohli}, \bibinfo{person}{Japhet Asher}, \bibinfo{person}{Jean-Baptiste Gaya}, \bibinfo{person}{Jeff Marcus}, \bibinfo{person}{Jeff Tang}, \bibinfo{person}{Jennifer Chan}, \bibinfo{person}{Jenny Zhen}, \bibinfo{person}{Jeremy Reizenstein}, \bibinfo{person}{Jeremy Teboul}, \bibinfo{person}{Jessica Zhong}, \bibinfo{person}{Jian Jin}, \bibinfo{person}{Jingyi Yang}, \bibinfo{person}{Joe Cummings}, \bibinfo{person}{Jon Carvill}, \bibinfo{person}{Jon Shepard}, \bibinfo{person}{Jonathan McPhie}, \bibinfo{person}{Jonathan Torres}, \bibinfo{person}{Josh Ginsburg}, \bibinfo{person}{Junjie Wang}, \bibinfo{person}{Kai Wu}, \bibinfo{person}{Kam~Hou U}, \bibinfo{person}{Karan Saxena}, \bibinfo{person}{Karthik Prasad}, \bibinfo{person}{Kartikay Khandelwal}, \bibinfo{person}{Katayoun Zand}, \bibinfo{person}{Kathy Matosich}, \bibinfo{person}{Kaushik Veeraraghavan}, \bibinfo{person}{Kelly Michelena}, \bibinfo{person}{Keqian Li}, \bibinfo{person}{Kun Huang}, \bibinfo{person}{Kunal Chawla}, \bibinfo{person}{Kushal Lakhotia}, \bibinfo{person}{Kyle Huang}, \bibinfo{person}{Lailin Chen}, \bibinfo{person}{Lakshya Garg}, \bibinfo{person}{Lavender A}, \bibinfo{person}{Leandro Silva}, \bibinfo{person}{Lee Bell}, \bibinfo{person}{Lei Zhang}, \bibinfo{person}{Liangpeng Guo}, \bibinfo{person}{Licheng Yu}, \bibinfo{person}{Liron Moshkovich}, \bibinfo{person}{Luca Wehrstedt}, \bibinfo{person}{Madian Khabsa}, \bibinfo{person}{Manav Avalani}, \bibinfo{person}{Manish Bhatt}, \bibinfo{person}{Maria Tsimpoukelli}, \bibinfo{person}{Martynas Mankus}, \bibinfo{person}{Matan Hasson}, \bibinfo{person}{Matthew Lennie}, \bibinfo{person}{Matthias Reso}, \bibinfo{person}{Maxim Groshev}, \bibinfo{person}{Maxim Naumov}, \bibinfo{person}{Maya Lathi}, \bibinfo{person}{Meghan Keneally}, \bibinfo{person}{Michael~L. Seltzer}, \bibinfo{person}{Michal Valko}, \bibinfo{person}{Michelle Restrepo}, \bibinfo{person}{Mihir Patel}, \bibinfo{person}{Mik Vyatskov}, \bibinfo{person}{Mikayel Samvelyan}, \bibinfo{person}{Mike Clark}, \bibinfo{person}{Mike Macey}, \bibinfo{person}{Mike Wang}, \bibinfo{person}{Miquel~Jubert Hermoso}, \bibinfo{person}{Mo Metanat}, \bibinfo{person}{Mohammad Rastegari}, \bibinfo{person}{Munish Bansal}, \bibinfo{person}{Nandhini Santhanam}, \bibinfo{person}{Natascha Parks}, \bibinfo{person}{Natasha White}, \bibinfo{person}{Navyata Bawa}, \bibinfo{person}{Nayan Singhal}, \bibinfo{person}{Nick Egebo}, \bibinfo{person}{Nicolas Usunier}, \bibinfo{person}{Nikolay~Pavlovich Laptev}, \bibinfo{person}{Ning Dong}, \bibinfo{person}{Ning Zhang}, \bibinfo{person}{Norman Cheng}, \bibinfo{person}{Oleg Chernoguz}, \bibinfo{person}{Olivia Hart}, \bibinfo{person}{Omkar Salpekar}, \bibinfo{person}{Ozlem Kalinli}, \bibinfo{person}{Parkin Kent}, \bibinfo{person}{Parth Parekh}, \bibinfo{person}{Paul Saab}, \bibinfo{person}{Pavan Balaji}, \bibinfo{person}{Pedro Rittner}, \bibinfo{person}{Philip Bontrager}, \bibinfo{person}{Pierre Roux}, \bibinfo{person}{Piotr Dollar}, \bibinfo{person}{Polina Zvyagina}, \bibinfo{person}{Prashant Ratanchandani}, \bibinfo{person}{Pritish Yuvraj}, \bibinfo{person}{Qian Liang}, \bibinfo{person}{Rachad Alao}, \bibinfo{person}{Rachel Rodriguez}, \bibinfo{person}{Rafi Ayub}, \bibinfo{person}{Raghotham Murthy}, \bibinfo{person}{Raghu Nayani}, \bibinfo{person}{Rahul Mitra}, \bibinfo{person}{Raymond Li}, \bibinfo{person}{Rebekkah Hogan}, \bibinfo{person}{Robin Battey}, \bibinfo{person}{Rocky Wang}, \bibinfo{person}{Rohan Maheswari}, \bibinfo{person}{Russ Howes}, \bibinfo{person}{Ruty Rinott}, \bibinfo{person}{Sai~Jayesh Bondu}, \bibinfo{person}{Samyak Datta}, \bibinfo{person}{Sara Chugh}, \bibinfo{person}{Sara Hunt}, \bibinfo{person}{Sargun Dhillon}, \bibinfo{person}{Sasha Sidorov}, \bibinfo{person}{Satadru Pan}, \bibinfo{person}{Saurabh Verma}, \bibinfo{person}{Seiji Yamamoto}, \bibinfo{person}{Sharadh Ramaswamy}, \bibinfo{person}{Shaun Lindsay}, \bibinfo{person}{Shaun Lindsay}, \bibinfo{person}{Sheng Feng}, \bibinfo{person}{Shenghao Lin}, \bibinfo{person}{Shengxin~Cindy Zha}, \bibinfo{person}{Shiva Shankar}, \bibinfo{person}{Shuqiang Zhang}, \bibinfo{person}{Shuqiang Zhang}, \bibinfo{person}{Sinong Wang}, \bibinfo{person}{Sneha Agarwal}, \bibinfo{person}{Soji Sajuyigbe}, \bibinfo{person}{Soumith Chintala}, \bibinfo{person}{Stephanie Max}, \bibinfo{person}{Stephen Chen}, \bibinfo{person}{Steve Kehoe}, \bibinfo{person}{Steve Satterfield}, \bibinfo{person}{Sudarshan Govindaprasad}, \bibinfo{person}{Sumit Gupta}, \bibinfo{person}{Sungmin Cho}, \bibinfo{person}{Sunny Virk}, \bibinfo{person}{Suraj Subramanian}, \bibinfo{person}{Sy Choudhury}, \bibinfo{person}{Sydney Goldman}, \bibinfo{person}{Tal Remez}, \bibinfo{person}{Tamar Glaser}, \bibinfo{person}{Tamara Best}, \bibinfo{person}{Thilo Kohler}, \bibinfo{person}{Thomas Robinson}, \bibinfo{person}{Tianhe Li}, \bibinfo{person}{Tianjun Zhang}, \bibinfo{person}{Tim Matthews}, \bibinfo{person}{Timothy Chou}, \bibinfo{person}{Tzook Shaked}, \bibinfo{person}{Varun Vontimitta}, \bibinfo{person}{Victoria Ajayi}, \bibinfo{person}{Victoria Montanez}, \bibinfo{person}{Vijai Mohan}, \bibinfo{person}{Vinay~Satish Kumar}, \bibinfo{person}{Vishal Mangla}, \bibinfo{person}{Vítor Albiero}, \bibinfo{person}{Vlad Ionescu}, \bibinfo{person}{Vlad Poenaru}, \bibinfo{person}{Vlad~Tiberiu Mihailescu}, \bibinfo{person}{Vladimir Ivanov}, \bibinfo{person}{Wei Li}, \bibinfo{person}{Wenchen Wang}, \bibinfo{person}{Wenwen Jiang}, \bibinfo{person}{Wes Bouaziz}, \bibinfo{person}{Will Constable}, \bibinfo{person}{Xiaocheng Tang}, \bibinfo{person}{Xiaofang Wang}, \bibinfo{person}{Xiaojian Wu}, \bibinfo{person}{Xiaolan Wang}, \bibinfo{person}{Xide Xia}, \bibinfo{person}{Xilun Wu}, \bibinfo{person}{Xinbo Gao}, \bibinfo{person}{Yanjun Chen}, \bibinfo{person}{Ye Hu}, \bibinfo{person}{Ye Jia}, \bibinfo{person}{Ye Qi}, \bibinfo{person}{Yenda Li}, \bibinfo{person}{Yilin Zhang}, \bibinfo{person}{Ying Zhang}, \bibinfo{person}{Yossi Adi}, \bibinfo{person}{Youngjin Nam}, \bibinfo{person}{Yu}, \bibinfo{person}{Wang}, \bibinfo{person}{Yuchen Hao}, \bibinfo{person}{Yundi Qian}, \bibinfo{person}{Yuzi He}, \bibinfo{person}{Zach Rait}, \bibinfo{person}{Zachary DeVito}, \bibinfo{person}{Zef Rosnbrick}, \bibinfo{person}{Zhaoduo Wen}, \bibinfo{person}{Zhenyu Yang}, {and} \bibinfo{person}{Zhiwei Zhao}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{The Llama 3 Herd of Models}.
+\newblock
+\newblock
+\showeprint[arxiv]{2407.21783}~[cs.AI]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2407.21783}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Elhage et~al\mbox{.}(2022)]%
+        {elhage2022superposition}
+\bibfield{author}{\bibinfo{person}{Nelson Elhage}, \bibinfo{person}{Tristan Hume}, \bibinfo{person}{Catherine Olsson}, \bibinfo{person}{Nicholas Schiefer}, \bibinfo{person}{Tom Henighan}, \bibinfo{person}{Shauna Kravec}, \bibinfo{person}{Zac Hatfield-Dodds}, \bibinfo{person}{Robert Lasenby}, \bibinfo{person}{Dawn Drain}, \bibinfo{person}{Carol Chen}, \bibinfo{person}{Roger Grosse}, \bibinfo{person}{Sam McCandlish}, \bibinfo{person}{Jared Kaplan}, \bibinfo{person}{Dario Amodei}, \bibinfo{person}{Martin Wattenberg}, {and} \bibinfo{person}{Christopher Olah}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Toy Models of Superposition}.
+\newblock \bibinfo{journal}{\emph{Transformer Circuits Thread}} (\bibinfo{year}{2022}).
+\newblock
+\urldef\tempurl%
+\url{https://transformer-circuits.pub/2022/toy_model/index.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Goldowsky-Dill et~al\mbox{.}(2023)]%
+        {goldowskydill2023localizingmodelbehaviorpath}
+\bibfield{author}{\bibinfo{person}{Nicholas Goldowsky-Dill}, \bibinfo{person}{Chris MacLeod}, \bibinfo{person}{Lucas Sato}, {and} \bibinfo{person}{Aryaman Arora}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Localizing Model Behavior with Path Patching}.
+\newblock
+\newblock
+\showeprint[arxiv]{2304.05969}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2304.05969}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Gurnee et~al\mbox{.}(2023)]%
+        {gurnee2023findingneuronshaystackcase}
+\bibfield{author}{\bibinfo{person}{Wes Gurnee}, \bibinfo{person}{Neel Nanda}, \bibinfo{person}{Matthew Pauly}, \bibinfo{person}{Katherine Harvey}, \bibinfo{person}{Dmitrii Troitskii}, {and} \bibinfo{person}{Dimitris Bertsimas}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Finding Neurons in a Haystack: Case Studies with Sparse Probing}.
+\newblock
+\newblock
+\showeprint[arxiv]{2305.01610}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2305.01610}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Gurnee and Tegmark(2024)]%
+        {gurnee2024languagemodelsrepresentspace}
+\bibfield{author}{\bibinfo{person}{Wes Gurnee} {and} \bibinfo{person}{Max Tegmark}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Language Models Represent Space and Time}.
+\newblock
+\newblock
+\showeprint[arxiv]{2310.02207}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2310.02207}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hanna et~al\mbox{.}(2023)]%
+        {hanna2023doesgpt2computegreaterthan}
+\bibfield{author}{\bibinfo{person}{Michael Hanna}, \bibinfo{person}{Ollie Liu}, {and} \bibinfo{person}{Alexandre Variengien}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model}.
+\newblock
+\newblock
+\showeprint[arxiv]{2305.00586}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2305.00586}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lieberum et~al\mbox{.}(2024)]%
+        {lieberum2024gemmascopeopensparse}
+\bibfield{author}{\bibinfo{person}{Tom Lieberum}, \bibinfo{person}{Senthooran Rajamanoharan}, \bibinfo{person}{Arthur Conmy}, \bibinfo{person}{Lewis Smith}, \bibinfo{person}{Nicolas Sonnerat}, \bibinfo{person}{Vikrant Varma}, \bibinfo{person}{János Kramár}, \bibinfo{person}{Anca Dragan}, \bibinfo{person}{Rohin Shah}, {and} \bibinfo{person}{Neel Nanda}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2}.
+\newblock
+\newblock
+\showeprint[arxiv]{2408.05147}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2408.05147}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Makelov et~al\mbox{.}(2024)]%
+        {makelov2024principledevaluationssparseautoencoders}
+\bibfield{author}{\bibinfo{person}{Aleksandar Makelov}, \bibinfo{person}{George Lange}, {and} \bibinfo{person}{Neel Nanda}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Towards Principled Evaluations of Sparse Autoencoders for Interpretability and Control}.
+\newblock
+\newblock
+\showeprint[arxiv]{2405.08366}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2405.08366}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Marks and Tegmark(2024)]%
+        {marks2024geometrytruthemergentlinear}
+\bibfield{author}{\bibinfo{person}{Samuel Marks} {and} \bibinfo{person}{Max Tegmark}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets}.
+\newblock
+\newblock
+\showeprint[arxiv]{2310.06824}~[cs.AI]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2310.06824}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Olah et~al\mbox{.}(2020)]%
+        {olah2020zoom}
+\bibfield{author}{\bibinfo{person}{Chris Olah}, \bibinfo{person}{Nick Cammarata}, \bibinfo{person}{Ludwig Schubert}, \bibinfo{person}{Gabriel Goh}, \bibinfo{person}{Michael Petrov}, {and} \bibinfo{person}{Shan Carter}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Zoom In: An Introduction to Circuits}.
+\newblock \bibinfo{journal}{\emph{Distill}} (\bibinfo{date}{March} \bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.23915/distill.00024.001}
+\showDOI{\tempurl}
+
+
+\bibitem[OpenAI et~al\mbox{.}(2024)]%
+        {openai2024gpt4technicalreport}
+\bibfield{author}{\bibinfo{person}{OpenAI}, \bibinfo{person}{Josh Achiam}, \bibinfo{person}{Steven Adler}, \bibinfo{person}{Sandhini Agarwal}, \bibinfo{person}{Lama Ahmad}, \bibinfo{person}{Ilge Akkaya}, \bibinfo{person}{Florencia~Leoni Aleman}, \bibinfo{person}{Diogo Almeida}, \bibinfo{person}{Janko Altenschmidt}, \bibinfo{person}{Sam Altman}, \bibinfo{person}{Shyamal Anadkat}, \bibinfo{person}{Red Avila}, \bibinfo{person}{Igor Babuschkin}, \bibinfo{person}{Suchir Balaji}, \bibinfo{person}{Valerie Balcom}, \bibinfo{person}{Paul Baltescu}, \bibinfo{person}{Haiming Bao}, \bibinfo{person}{Mohammad Bavarian}, \bibinfo{person}{Jeff Belgum}, \bibinfo{person}{Irwan Bello}, \bibinfo{person}{Jake Berdine}, \bibinfo{person}{Gabriel Bernadett-Shapiro}, \bibinfo{person}{Christopher Berner}, \bibinfo{person}{Lenny Bogdonoff}, \bibinfo{person}{Oleg Boiko}, \bibinfo{person}{Madelaine Boyd}, \bibinfo{person}{Anna-Luisa Brakman}, \bibinfo{person}{Greg Brockman}, \bibinfo{person}{Tim Brooks}, \bibinfo{person}{Miles Brundage}, \bibinfo{person}{Kevin Button}, \bibinfo{person}{Trevor Cai}, \bibinfo{person}{Rosie Campbell}, \bibinfo{person}{Andrew Cann}, \bibinfo{person}{Brittany Carey}, \bibinfo{person}{Chelsea Carlson}, \bibinfo{person}{Rory Carmichael}, \bibinfo{person}{Brooke Chan}, \bibinfo{person}{Che Chang}, \bibinfo{person}{Fotis Chantzis}, \bibinfo{person}{Derek Chen}, \bibinfo{person}{Sully Chen}, \bibinfo{person}{Ruby Chen}, \bibinfo{person}{Jason Chen}, \bibinfo{person}{Mark Chen}, \bibinfo{person}{Ben Chess}, \bibinfo{person}{Chester Cho}, \bibinfo{person}{Casey Chu}, \bibinfo{person}{Hyung~Won Chung}, \bibinfo{person}{Dave Cummings}, \bibinfo{person}{Jeremiah Currier}, \bibinfo{person}{Yunxing Dai}, \bibinfo{person}{Cory Decareaux}, \bibinfo{person}{Thomas Degry}, \bibinfo{person}{Noah Deutsch}, \bibinfo{person}{Damien Deville}, \bibinfo{person}{Arka Dhar}, \bibinfo{person}{David Dohan}, \bibinfo{person}{Steve Dowling}, \bibinfo{person}{Sheila Dunning}, \bibinfo{person}{Adrien Ecoffet}, \bibinfo{person}{Atty Eleti}, \bibinfo{person}{Tyna Eloundou}, \bibinfo{person}{David Farhi}, \bibinfo{person}{Liam Fedus}, \bibinfo{person}{Niko Felix}, \bibinfo{person}{Simón~Posada Fishman}, \bibinfo{person}{Juston Forte}, \bibinfo{person}{Isabella Fulford}, \bibinfo{person}{Leo Gao}, \bibinfo{person}{Elie Georges}, \bibinfo{person}{Christian Gibson}, \bibinfo{person}{Vik Goel}, \bibinfo{person}{Tarun Gogineni}, \bibinfo{person}{Gabriel Goh}, \bibinfo{person}{Rapha Gontijo-Lopes}, \bibinfo{person}{Jonathan Gordon}, \bibinfo{person}{Morgan Grafstein}, \bibinfo{person}{Scott Gray}, \bibinfo{person}{Ryan Greene}, \bibinfo{person}{Joshua Gross}, \bibinfo{person}{Shixiang~Shane Gu}, \bibinfo{person}{Yufei Guo}, \bibinfo{person}{Chris Hallacy}, \bibinfo{person}{Jesse Han}, \bibinfo{person}{Jeff Harris}, \bibinfo{person}{Yuchen He}, \bibinfo{person}{Mike Heaton}, \bibinfo{person}{Johannes Heidecke}, \bibinfo{person}{Chris Hesse}, \bibinfo{person}{Alan Hickey}, \bibinfo{person}{Wade Hickey}, \bibinfo{person}{Peter Hoeschele}, \bibinfo{person}{Brandon Houghton}, \bibinfo{person}{Kenny Hsu}, \bibinfo{person}{Shengli Hu}, \bibinfo{person}{Xin Hu}, \bibinfo{person}{Joost Huizinga}, \bibinfo{person}{Shantanu Jain}, \bibinfo{person}{Shawn Jain}, \bibinfo{person}{Joanne Jang}, \bibinfo{person}{Angela Jiang}, \bibinfo{person}{Roger Jiang}, \bibinfo{person}{Haozhun Jin}, \bibinfo{person}{Denny Jin}, \bibinfo{person}{Shino Jomoto}, \bibinfo{person}{Billie Jonn}, \bibinfo{person}{Heewoo Jun}, \bibinfo{person}{Tomer Kaftan}, \bibinfo{person}{Łukasz Kaiser}, \bibinfo{person}{Ali Kamali}, \bibinfo{person}{Ingmar Kanitscheider}, \bibinfo{person}{Nitish~Shirish Keskar}, \bibinfo{person}{Tabarak Khan}, \bibinfo{person}{Logan Kilpatrick}, \bibinfo{person}{Jong~Wook Kim}, \bibinfo{person}{Christina Kim}, \bibinfo{person}{Yongjik Kim}, \bibinfo{person}{Jan~Hendrik Kirchner}, \bibinfo{person}{Jamie Kiros}, \bibinfo{person}{Matt Knight}, \bibinfo{person}{Daniel Kokotajlo}, \bibinfo{person}{Łukasz Kondraciuk}, \bibinfo{person}{Andrew Kondrich}, \bibinfo{person}{Aris Konstantinidis}, \bibinfo{person}{Kyle Kosic}, \bibinfo{person}{Gretchen Krueger}, \bibinfo{person}{Vishal Kuo}, \bibinfo{person}{Michael Lampe}, \bibinfo{person}{Ikai Lan}, \bibinfo{person}{Teddy Lee}, \bibinfo{person}{Jan Leike}, \bibinfo{person}{Jade Leung}, \bibinfo{person}{Daniel Levy}, \bibinfo{person}{Chak~Ming Li}, \bibinfo{person}{Rachel Lim}, \bibinfo{person}{Molly Lin}, \bibinfo{person}{Stephanie Lin}, \bibinfo{person}{Mateusz Litwin}, \bibinfo{person}{Theresa Lopez}, \bibinfo{person}{Ryan Lowe}, \bibinfo{person}{Patricia Lue}, \bibinfo{person}{Anna Makanju}, \bibinfo{person}{Kim Malfacini}, \bibinfo{person}{Sam Manning}, \bibinfo{person}{Todor Markov}, \bibinfo{person}{Yaniv Markovski}, \bibinfo{person}{Bianca Martin}, \bibinfo{person}{Katie Mayer}, \bibinfo{person}{Andrew Mayne}, \bibinfo{person}{Bob McGrew}, \bibinfo{person}{Scott~Mayer McKinney}, \bibinfo{person}{Christine McLeavey}, \bibinfo{person}{Paul McMillan}, \bibinfo{person}{Jake McNeil}, \bibinfo{person}{David Medina}, \bibinfo{person}{Aalok Mehta}, \bibinfo{person}{Jacob Menick}, \bibinfo{person}{Luke Metz}, \bibinfo{person}{Andrey Mishchenko}, \bibinfo{person}{Pamela Mishkin}, \bibinfo{person}{Vinnie Monaco}, \bibinfo{person}{Evan Morikawa}, \bibinfo{person}{Daniel Mossing}, \bibinfo{person}{Tong Mu}, \bibinfo{person}{Mira Murati}, \bibinfo{person}{Oleg Murk}, \bibinfo{person}{David Mély}, \bibinfo{person}{Ashvin Nair}, \bibinfo{person}{Reiichiro Nakano}, \bibinfo{person}{Rajeev Nayak}, \bibinfo{person}{Arvind Neelakantan}, \bibinfo{person}{Richard Ngo}, \bibinfo{person}{Hyeonwoo Noh}, \bibinfo{person}{Long Ouyang}, \bibinfo{person}{Cullen O'Keefe}, \bibinfo{person}{Jakub Pachocki}, \bibinfo{person}{Alex Paino}, \bibinfo{person}{Joe Palermo}, \bibinfo{person}{Ashley Pantuliano}, \bibinfo{person}{Giambattista Parascandolo}, \bibinfo{person}{Joel Parish}, \bibinfo{person}{Emy Parparita}, \bibinfo{person}{Alex Passos}, \bibinfo{person}{Mikhail Pavlov}, \bibinfo{person}{Andrew Peng}, \bibinfo{person}{Adam Perelman}, \bibinfo{person}{Filipe de Avila Belbute~Peres}, \bibinfo{person}{Michael Petrov}, \bibinfo{person}{Henrique~Ponde de Oliveira~Pinto}, \bibinfo{person}{Michael}, \bibinfo{person}{Pokorny}, \bibinfo{person}{Michelle Pokrass}, \bibinfo{person}{Vitchyr~H. Pong}, \bibinfo{person}{Tolly Powell}, \bibinfo{person}{Alethea Power}, \bibinfo{person}{Boris Power}, \bibinfo{person}{Elizabeth Proehl}, \bibinfo{person}{Raul Puri}, \bibinfo{person}{Alec Radford}, \bibinfo{person}{Jack Rae}, \bibinfo{person}{Aditya Ramesh}, \bibinfo{person}{Cameron Raymond}, \bibinfo{person}{Francis Real}, \bibinfo{person}{Kendra Rimbach}, \bibinfo{person}{Carl Ross}, \bibinfo{person}{Bob Rotsted}, \bibinfo{person}{Henri Roussez}, \bibinfo{person}{Nick Ryder}, \bibinfo{person}{Mario Saltarelli}, \bibinfo{person}{Ted Sanders}, \bibinfo{person}{Shibani Santurkar}, \bibinfo{person}{Girish Sastry}, \bibinfo{person}{Heather Schmidt}, \bibinfo{person}{David Schnurr}, \bibinfo{person}{John Schulman}, \bibinfo{person}{Daniel Selsam}, \bibinfo{person}{Kyla Sheppard}, \bibinfo{person}{Toki Sherbakov}, \bibinfo{person}{Jessica Shieh}, \bibinfo{person}{Sarah Shoker}, \bibinfo{person}{Pranav Shyam}, \bibinfo{person}{Szymon Sidor}, \bibinfo{person}{Eric Sigler}, \bibinfo{person}{Maddie Simens}, \bibinfo{person}{Jordan Sitkin}, \bibinfo{person}{Katarina Slama}, \bibinfo{person}{Ian Sohl}, \bibinfo{person}{Benjamin Sokolowsky}, \bibinfo{person}{Yang Song}, \bibinfo{person}{Natalie Staudacher}, \bibinfo{person}{Felipe~Petroski Such}, \bibinfo{person}{Natalie Summers}, \bibinfo{person}{Ilya Sutskever}, \bibinfo{person}{Jie Tang}, \bibinfo{person}{Nikolas Tezak}, \bibinfo{person}{Madeleine~B. Thompson}, \bibinfo{person}{Phil Tillet}, \bibinfo{person}{Amin Tootoonchian}, \bibinfo{person}{Elizabeth Tseng}, \bibinfo{person}{Preston Tuggle}, \bibinfo{person}{Nick Turley}, \bibinfo{person}{Jerry Tworek}, \bibinfo{person}{Juan Felipe~Cerón Uribe}, \bibinfo{person}{Andrea Vallone}, \bibinfo{person}{Arun Vijayvergiya}, \bibinfo{person}{Chelsea Voss}, \bibinfo{person}{Carroll Wainwright}, \bibinfo{person}{Justin~Jay Wang}, \bibinfo{person}{Alvin Wang}, \bibinfo{person}{Ben Wang}, \bibinfo{person}{Jonathan Ward}, \bibinfo{person}{Jason Wei}, \bibinfo{person}{CJ Weinmann}, \bibinfo{person}{Akila Welihinda}, \bibinfo{person}{Peter Welinder}, \bibinfo{person}{Jiayi Weng}, \bibinfo{person}{Lilian Weng}, \bibinfo{person}{Matt Wiethoff}, \bibinfo{person}{Dave Willner}, \bibinfo{person}{Clemens Winter}, \bibinfo{person}{Samuel Wolrich}, \bibinfo{person}{Hannah Wong}, \bibinfo{person}{Lauren Workman}, \bibinfo{person}{Sherwin Wu}, \bibinfo{person}{Jeff Wu}, \bibinfo{person}{Michael Wu}, \bibinfo{person}{Kai Xiao}, \bibinfo{person}{Tao Xu}, \bibinfo{person}{Sarah Yoo}, \bibinfo{person}{Kevin Yu}, \bibinfo{person}{Qiming Yuan}, \bibinfo{person}{Wojciech Zaremba}, \bibinfo{person}{Rowan Zellers}, \bibinfo{person}{Chong Zhang}, \bibinfo{person}{Marvin Zhang}, \bibinfo{person}{Shengjia Zhao}, \bibinfo{person}{Tianhao Zheng}, \bibinfo{person}{Juntang Zhuang}, \bibinfo{person}{William Zhuk}, {and} \bibinfo{person}{Barret Zoph}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{GPT-4 Technical Report}.
+\newblock
+\newblock
+\showeprint[arxiv]{2303.08774}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2303.08774}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Qwen(2024)]%
+        {qwen2math2024}
+\bibfield{author}{\bibinfo{person}{Qwen}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Introducing Qwen2-Math}.
+\newblock \bibinfo{howpublished}{Qwen Blog}.
+\newblock
+\urldef\tempurl%
+\url{https://qwenlm.github.io/blog/qwen2-math/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed: 2024-10-12}.
+
+
+\bibitem[Rai et~al\mbox{.}(2024)]%
+        {rai2024practicalreviewmechanisticinterpretability}
+\bibfield{author}{\bibinfo{person}{Daking Rai}, \bibinfo{person}{Yilun Zhou}, \bibinfo{person}{Shi Feng}, \bibinfo{person}{Abulhair Saparov}, {and} \bibinfo{person}{Ziyu Yao}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{A Practical Review of Mechanistic Interpretability for Transformer-Based Language Models}.
+\newblock
+\newblock
+\showeprint[arxiv]{2407.02646}~[cs.AI]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2407.02646}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Räuker et~al\mbox{.}(2023)]%
+        {räuker2023transparentaisurveyinterpreting}
+\bibfield{author}{\bibinfo{person}{Tilman Räuker}, \bibinfo{person}{Anson Ho}, \bibinfo{person}{Stephen Casper}, {and} \bibinfo{person}{Dylan Hadfield-Menell}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks}.
+\newblock
+\newblock
+\showeprint[arxiv]{2207.13243}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2207.13243}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Vaswani et~al\mbox{.}(2017)]%
+        {vaswani2023attentionneed}
+\bibfield{author}{\bibinfo{person}{Ashish Vaswani}, \bibinfo{person}{Noam Shazeer}, \bibinfo{person}{Niki Parmar}, \bibinfo{person}{Jakob Uszkoreit}, \bibinfo{person}{Llion Jones}, \bibinfo{person}{Aidan~N. Gomez}, \bibinfo{person}{Lukasz Kaiser}, {and} \bibinfo{person}{Illia Polosukhin}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Attention Is All You Need}.
+\newblock \bibinfo{journal}{\emph{Advances in Neural Information Processing Systems 30 (NIPS 2017)}} (\bibinfo{year}{2017}).
+\newblock
+\showeprint[arxiv]{1706.03762}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/1706.03762}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2022)]%
+        {wang2022interpretabilitywildcircuitindirect}
+\bibfield{author}{\bibinfo{person}{Kevin Wang}, \bibinfo{person}{Alexandre Variengien}, \bibinfo{person}{Arthur Conmy}, \bibinfo{person}{Buck Shlegeris}, {and} \bibinfo{person}{Jacob Steinhardt}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small}.
+\newblock
+\newblock
+\showeprint[arxiv]{2211.00593}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2211.00593}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang and Nanda(2024)]%
+        {zhang2024bestpracticesactivationpatching}
+\bibfield{author}{\bibinfo{person}{Fred Zhang} {and} \bibinfo{person}{Neel Nanda}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Towards Best Practices of Activation Patching in Language Models: Metrics and Methods}.
+\newblock
+\newblock
+\showeprint[arxiv]{2309.16042}~[cs.LG]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2309.16042}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhao et~al\mbox{.}(2023)]%
+        {zhao2023explainabilitylargelanguagemodels}
+\bibfield{author}{\bibinfo{person}{Haiyan Zhao}, \bibinfo{person}{Hanjie Chen}, \bibinfo{person}{Fan Yang}, \bibinfo{person}{Ninghao Liu}, \bibinfo{person}{Huiqi Deng}, \bibinfo{person}{Hengyi Cai}, \bibinfo{person}{Shuaiqiang Wang}, \bibinfo{person}{Dawei Yin}, {and} \bibinfo{person}{Mengnan Du}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Explainability for Large Language Models: A Survey}.
+\newblock
+\newblock
+\showeprint[arxiv]{2309.01029}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2309.01029}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}
