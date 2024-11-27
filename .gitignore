@@ -1,0 +1,32 @@
+# Ignore LaTeX auxiliary and log files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Ignore temporary editor files
+*.swp
+*.bak
+*.tmp
+
+# Ignore comment files
+*.cut
+
+# Keep image files
+!*.png
+!*.jpg
+!*.jpeg
+!*.svg
+
+# Keep LaTeX source files
+!*.tex
+!*.bib
+
+# Ignore PDFs except the main output
+*.pdf
+!survey.pdf
+
