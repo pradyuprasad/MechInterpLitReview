@@ -4,29 +4,9 @@ This repository contains the LaTeX source code and materials for the paper **"Me
 
 ---
 
-## 📜 About the Survey
+## About the Survey
 
-Mechanistic interpretability seeks to understand the internal mechanisms of neural networks by reverse-engineering their computations. This survey:
-- Introduces key concepts such as **features**, **polysemanticity**, and **circuits**.
-- Reviews techniques like **probing**, **sparse autoencoders**, **ablation**, and **activation patching**.
-- Discusses challenges in scaling interpretability methods to larger models and the redundancy in neural circuits.
+  This survey provides a comprehensive overview of mechanistic interpretability in large language models (LLMs), focusing on techniques to understand the internal computations and decision-making processes of neural networks, transformers, and other complex architectures. We introduce key concepts such as features, polysemanticity, and circuits, which form the foundation for understanding model behavior at a granular level. The paper explores a taxonomy of approaches, categorizing them into observational techniques like probing and sparse autoencoders, and interventional techniques such as ablation and activation patching. We review recent advances in these areas, discussing how they contribute to uncovering the underlying mechanisms of LLMs.
 
----
-
-## 🌟 Key Highlights
-
-- **Key Concepts**: Explains the foundational ideas like superposition, polysemanticity, and circuits that govern neural computations.
-- **Techniques**:
-  - Observational: Probing and sparse autoencoders for diagnosing model representations.
-  - Interventional: Ablation and activation patching to identify causal relationships.
-- **Challenges**: Addresses issues like scalability, redundancy, and the need for standardized evaluation metrics.
-
----
-
-## 📂 Files
-
-- **`paper.tex`**: Main LaTeX file for the survey.
-- **`references.bib`**: Bibliography file.
-- **`survey.pdf`**: Compiled version of the paper.
-- **Images**: Supporting illustrations used in the paper.
+  We address the challenges of scaling interpretability techniques to larger and more complex models, highlighting issues such as computational feasibility and the difficulty of disentangling polysemantic features. We examine the current limitations of interpretability methods and their implications for AI transparency and safety. Furthermore, we identify open questions and potential future directions for research, including the development of more robust evaluation metrics and approaches for generalizing interpretability across different tasks and model architectures.---
 
